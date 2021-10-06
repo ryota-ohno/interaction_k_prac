@@ -3,7 +3,7 @@ import numpy as np
 import pandas as pd
 from tqdm import tqdm
 from utils import Rod
-from make_1 import get_monomer_xyzR
+from make_2 import get_monomer_xyzR
 from scipy import signal
 
 def get_c_vec_vdw(monomer_name,A1,A2,a_,b_,theta):#,name_csv
