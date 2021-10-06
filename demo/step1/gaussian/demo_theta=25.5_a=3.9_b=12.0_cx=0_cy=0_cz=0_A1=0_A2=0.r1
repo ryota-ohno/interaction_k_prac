@@ -1,0 +1,21 @@
+#!/bin/sh 
+#$ -S /bin/sh 
+#$ -cwd 
+#$ -V 
+#$ -q gr1.q 
+#$ -pe OpenMP 40 
+
+hostname 
+
+export g16root=/home/g03 
+source $g16root/g16/bsd/g16.profile 
+
+export GAUSS_SCRDIR=/home/scr/$JOB_ID 
+mkdir /home/scr/$JOB_ID 
+
+g16 < demo_theta=25.5_a=3.9_b=12.0_cx=0_cy=0_cz=0_A1=0_A2=0.inp > demo_theta=25.5_a=3.9_b=12.0_cx=0_cy=0_cz=0_A1=0_A2=0.log 
+
+rm -rf /home/scr/$JOB_ID 
+
+
+#sleep 5 

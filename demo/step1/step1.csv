@@ -1,0 +1,7 @@
+a,b,theta,E,E_p,E_t,machine_type,status,file_name
+7.4,6.0,25.0,0.0,0.0,0.0,2,InProgress,demo_theta=25.0_a=7.4_b=6.0_cx=0_cy=0_cz=0_A1=0_A2=0.log
+3.9,12.0,25.0,0.0,0.0,0.0,2,InProgress,demo_theta=25.0_a=3.9_b=12.0_cx=0_cy=0_cz=0_A1=0_A2=0.log
+6.8,6.6,25.5,0.0,0.0,0.0,2,InProgress,demo_theta=25.5_a=6.8_b=6.6_cx=0_cy=0_cz=0_A1=0_A2=0.log
+7.6,5.9,25.5,0.0,0.0,0.0,1,InProgress,demo_theta=25.5_a=7.6_b=5.9_cx=0_cy=0_cz=0_A1=0_A2=0.log
+3.9,12.0,25.5,0.0,0.0,0.0,1,InProgress,demo_theta=25.5_a=3.9_b=12.0_cx=0_cy=0_cz=0_A1=0_A2=0.log
+7.2,6.3,26.0,0.0,0.0,0.0,1,InProgress,demo_theta=26.0_a=7.2_b=6.3_cx=0_cy=0_cz=0_A1=0_A2=0.log
