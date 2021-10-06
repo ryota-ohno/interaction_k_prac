@@ -5,7 +5,7 @@ import time
 import sys
 from tqdm import tqdm
 sys.path.append(os.path.join(os.environ['HOME'],'/Working/interaction_k_prac/'))
-from make_1 import exec_gjf
+from make_2 import exec_gjf
 from vdw_1 import vdw_R
 from utils import get_E
 import argparse
